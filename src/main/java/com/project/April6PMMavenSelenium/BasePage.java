@@ -89,7 +89,7 @@ public class BasePage {
 			//if(p.getProperty(browser, url).equals("chrome"))		//from properties file
 				if(browser.equals("chrome"))	//from xml suite
 			{
-				System.setProperty("webdriver.chrome.driver", "C:\\Users\\chinmaya\\Desktop\\driver\\chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver", "C:\\Users\\chinmaya\\Desktop\\log\\chromedriver.exe");
 				ChromeOptions option=new ChromeOptions();
 				option.addArguments("user-data-dir=C:\\Users\\chinmaya\\AppData\\Local\\Google\\Chrome\\User Data\\Profile 1");
 				option.addArguments("--disable-notifications");
